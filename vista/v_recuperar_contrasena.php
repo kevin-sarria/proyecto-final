@@ -38,14 +38,14 @@
 
             $from = "From: " . "reypekka256@gmail.com" ;
 
-            echo $message;
+            //echo $message;
 
-            /*$mail = mail($to, $subject, $message, $from);
+            $mail = mail($to, $subject, $message, $from);
             if($mail){
                 $alert ='<div id="alert"><p>Correo enviado satisfactoriamente a  '.$to.'</p><a class="close">Cerrar</a></div>';
             }else{
                 $alert ='<div id="alert"><p>Error en el envio a  '.$to.'</p><a class="close">Cerrar</a></div>';
-            }*/
+            }
             
             
             
@@ -111,7 +111,7 @@
         <meta name="viewport" content="width=device-width, initial-scale = 1.0">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8" ></script>
         <link rel="stylesheet" type="text/css" href="../css/recuperacion_contrasena.css">
-        <title>Recuperar Cpontraseña.</title>
+        <title>Recuperar Contraseña.</title>
     </head>
 <body>
     <div class="form_recuperacion_contrasena">
