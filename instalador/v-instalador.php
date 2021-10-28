@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" type = "text/css" href="../css/instalador.css">
-    <title>Instaldor</title>
+    <title>Instalador</title>
 </head>
 <body>
 <div class="con_ins">
@@ -14,7 +14,7 @@
 
             <img src="../img/logo.png" class="img_logo"><br>
 
-            <h1>Instaldor</h1>
+            <h1>Instalador</h1>
             Nombre servidor <br>
             <input type="text" name="servidor" >
             <div>Nombre usuario</div>
