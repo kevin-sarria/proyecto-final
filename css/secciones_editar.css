@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "hide" ,sans-serif;
+    box-sizing: border-box;
+}
+
+.form_insertar{
+    display: flex;
+    justify-content: center;
+}
+
+.insertar_empresa{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, 3%);
+    width: 80%;
+}
+
+.galeria_producto{
+    width: 470px ;
+    padding: 30px 60px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+    margin-top: 65px;
+    transform: translateX(-350%);
+    transition: .6s;
+}
+
+.galeria_producto.active{
+    transform: translateX(0);
+}
+
+.btn-small span{
+    font-size: 26px;
+    text-align: center;
+}
+
+.form_editar_productos{
+    width: 470px;
+    padding: 30px 60px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+    position: fixed;
+    margin-top: 65px;
+    transform: translateY(0);
+    transition: .6s;
+}
+
+.form_editar_productos.active{
+    transform: translateY(-350%);
+}
+
+.input_2{
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #686868;border-radius: 10px;
+}
+
+.input_2:focus{
+    border: solid 1.6px #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.7s;
+}
+
+.imagin{
+    width: 85%;
+    display: -webkit-inline-box;
+}
+
+.imagin img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.botones_seccion_editar{
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #037bee;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.botones_seccion_editar:hover{
+    opacity: .7;
+    box-shadow: 0 0 20px rgb(88, 88, 88);
+}
+
+.cam_img{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cam_img span{
+    color: #0f8293;
+    cursor: pointer;
+}
+
+.titulos_2{
+    justify-content: center;
+    margin: 20px;
+    position: fixed;
+}
+
+.select{
+    display: none;
+}
+
+.galeria_empresas{
+
+    width: 30vw ;
+    height: 40vh;
+    /*border: 1px solid;
+    border-radius: 30px;*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 25vw;
+
+}
+
+.form_editar_empresas{
+
+    width: 30vw ;
+    height: 60vh;
+    /*border: 1px solid;
+    border-radius: 30px;*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 25vw;
+    font-size: 20px;
+
+}
+
+.iconn{
+    padding-top: 25px;
+    float: left;
+}
+
+.search-icon.fas{
+    width: 40px;
+    height: 40px;
+    float: right;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    background: #037bee;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+
+#alert {
+    width: 70%;
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    transition: .6;
+}
+
+#alert.active{
+    z-index: -1;
+    opacity: 0;
+}
+
+#alert p {
+    color: #333;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.close {
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* background: #e67e22; */
+    background: #3498db;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#container{
+    background: #f1f1f1;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width:  420px){
+
+
+    .galeria_producto{
+        width: 100%;
+        padding: 0 15px;
+        box-shadow: 0 0 0 black;
+    }
+
+    .form_editar_productos{
+        width: 100%;
+        padding: 0 15px;
+        box-shadow: 0 0 0 black;
+    }
+
+    .form_editar_empresas{
+
+        width: 70vw ;
+        height: 50vh;
+        /*border: 1px solid;
+        border-radius: 30px;*/
+        padding: 10px;
+        text-align: center;
+        margin-left: -8vw;
+        font-size: 20px;
+
+    }
+
+    .insertar_empresa{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-51%, 2%);
+        width: 62%;
+    }
+
+    .form_insertar{
+        display: flex;
+    }
+
+    #container{
+        background: #fff;
+    }
+
+}
