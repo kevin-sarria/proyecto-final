@@ -44,7 +44,7 @@
                     <input type="text" name="nombre_admin">
                     <span data-placeholder="Usuario"></span>
                 </div>
-                <div class="error_ins"><p>El usuario puede tener letras, numeros, guion y guion_bajo.</p></div>
+                <div class="error_ins"><p>El usuario puede tener letras, números, guion y guion_bajo.</p></div>
             </div>
 
             <div id="grupo__email">
@@ -52,7 +52,7 @@
                     <input type="email" name="correo_administrador">
                     <span data-placeholder="Gmail"></span>
                 </div>
-                <div class="error_ins"><p>El correo tiene que ser de 4 o mas digitos y solo puede contener numeros, letras y guion bajo.</p></div>
+                <div class="error_ins"><p>El correo tiene que ser de 4 o mas dígitos y solo puede contener números, letras y guion bajo.</p></div>
             </div>
 
             <div id="grupo__password">
@@ -60,7 +60,7 @@
                     <input type="password" name="contrasena_administrador">
                     <span data-placeholder="Contraseña"></span>
                 </div>
-                <div class="error_ins"><p>La contraseña tiene que ser de 4 o 15 digitos.</p></div>
+                <div class="error_ins"><p>La contraseña tiene que ser de 4 o 15 dígitos.</p></div>
             </div>
 
             <input type="hidden" name="rol" value="1">

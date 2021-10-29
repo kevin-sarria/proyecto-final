@@ -34,13 +34,13 @@
 
                 <div class="textbox" id="grupo__email">
                     <input type="text" class="int" name="correo_administrador" id="email" placeholder="Email">
-                    <div class="error_ins"><p>El correo tiene que ser de 4 o mas digitos y solo puede contener numeros, letras y guion bajo.</p></div>
+                    <div class="error_ins"><p>El correo tiene que ser de 4 o mas dígitos y solo puede contener números, letras y guion bajo.</p></div>
                     
                 </div>
 
                 <div class="textbox" id="grupo__password">
                     <input type="password" class="int" name="contrasena_administrador" id="password" placeholder="Contraseña">
-                    <div class="error_ins"><p>La contraseña tiene que ser de 4 o 15 digitos.</p></div>
+                    <div class="error_ins"><p>La contraseña tiene que ser de 4 o 15 dígitos.</p></div>
                     
                 </div>
 
@@ -70,17 +70,17 @@
 
                 <div class="register-box" id="grupo2__nombre">
                     <input type="text" class="int" name="nombre_admin" placeholder="Usuario">
-                    <div class="error_ins"><p>El usuario puede tener letras, numeros, guion y guion_bajo</p></div>
+                    <div class="error_ins"><p>El usuario puede tener letras, números, guion y guion_bajo</p></div>
                 </div>
 
                 <div class="register-box" id="grupo2__email">
                     <input type="text" class="int" name="correo_administrador" placeholder="Email">
-                    <div class="error_ins"><p>El correo tiene que ser de 4 o mas digitos y solo puede contener numeros, letras y guion bajo.</p></div>
+                    <div class="error_ins"><p>El correo tiene que ser de 4 o mas dígitos y solo puede contener números, letras y guion bajo.</p></div>
                 </div>
 
                 <div class="register-box" id="grupo2__password">
                     <input type="password" class="int" name="contrasena_administrador" placeholder="Contraseña">
-                    <div class="error_ins"><p>La contraseña tiene que ser de 4 o 15 digitos.</p></div>
+                    <div class="error_ins"><p>La contraseña tiene que ser de 4 o 15 dígitos.</p></div>
                 </div>
 
                 <div class="register-box" id="grupo2__terminos">
