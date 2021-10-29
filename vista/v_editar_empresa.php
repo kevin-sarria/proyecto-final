@@ -38,7 +38,7 @@
             <br><input class="input_2" type = "text" name = "nombre_empresa" value="<?php echo $nombre ?>" autocomplete="off" maxlength ="50" required> 
             <br>Descripción de la empresa
             <br><textarea class="input_2" name = "descripcion_empresa"  class="int_des" autocomplete="off" maxlength ="1000" required><?php echo $des ?></textarea>
-            <br>Numero de contacto
+            <br>Número de contacto
             <br><input class="input_2" type = "text" name = "numero_contacto" value="<?php echo $numero ?>" autocomplete="off" required minlength="10"maxlength="30">
             <br>Dirección de la empresa
             <br><input class="input_2" type = "text" name = "direccion" value="<?php echo $direccion ?>" autocomplete="off" maxlength ="50" required>

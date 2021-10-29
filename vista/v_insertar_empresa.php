@@ -36,7 +36,7 @@
             <br><input type = "text" name = "nombre_empresa" autocomplete="off" maxlength ="50" required> 
             <br>Descripción de la empresa
             <br><textarea name = "descripcion_empresa" class="int_des" autocomplete="off" maxlength ="1000" required></textarea>
-            <br>Numero de contacto
+            <br>Número de contacto
             <br><input type = "text" name = "numero_contacto" autocomplete="off" required minlength="10"maxlength="10">
             <br>Dirección de la empresa
             <br><input type = "text" name = "direccion" autocomplete="off" maxlength ="50" required>

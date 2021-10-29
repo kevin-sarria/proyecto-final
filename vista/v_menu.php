@@ -12,7 +12,7 @@
       <ul>
         <!--Crea enlaces para redirecionar al usuario en el sist-->
         <!--<li><a href="../controlador/c_seccion.php">  Tablas </a></li>-->
-        <li><a href="../vista/v_tabla_tipo_empresa.php"> Categoria </a></li>
+        <li><a href="../vista/v_tabla_tipo_empresa.php"> Categoría </a></li>
         <li><a href="../vista/v_lista_empresas_admin.php"> Vista Usuario </a></li>
         <li><a href="../controlador/salir.php"> Salir </a></li>
       </ul>
