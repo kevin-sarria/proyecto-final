@@ -1,3 +1,18 @@
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4RK0GG1C3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-X4RK0GG1C3');
+  </script>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
